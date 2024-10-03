@@ -5,7 +5,7 @@ Linguagem simples de Python para entender a biblioteca pandas e de gerar gráfic
 # Começando a codificação
 
 import pandas as pd
-import numpy as np[Uploading Iris.csv…]()
+import numpy as np
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -41,11 +41,11 @@ planta['especie'].value_counts()
 
 #### Criando gráfico com apenas uma linha de código
 planta['especie'].value_counts().head(10).plot(kind='bar', figsize=(11, 5), grid=False, rot=0, color ='orange')
-# Kind : Informa o tipo de gráfico escolhido (barras = 'bar')
-# Figsize: Informa o tamanho que o gráfico terá
-# Grid: Permite que apareça as linhas de grade no gráfico.
-# Rot: Informa o grau de toração dos dados que o eixo X devem ter.
-# Color: a cor do gráfico
+#### Kind : Informa o tipo de gráfico escolhido (barras = 'bar')
+#### Figsize: Informa o tamanho que o gráfico terá
+#### Grid: Permite que apareça as linhas de grade no gráfico.
+#### Rot: Informa o grau de toração dos dados que o eixo X devem ter.
+#### Color: a cor do gráfico
 
 #### Deixando o gráfico mais agradavel
 planta['especie'].value_counts().head(10).plot(kind='bar', figsize=(11, 5), grid=False, rot=0, color ='orange')
